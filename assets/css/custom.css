@@ -1,0 +1,335 @@
+/*font-----------------------------------------------------------------*/
+
+@font-face {
+    font-family: mont-bold;
+    src: url('../font/Montserrat-Bold.otf');
+}
+
+
+@font-face {
+    font-family: 'Segoe UI Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('../css/fonts/Segoe UI Bold'), url('../css/fonts/Segoe UI Bold.woff') format('woff');
+}
+
+
+/*font end0--------------------------------------------------*/
+
+body {
+    color: #707070;
+}
+
+p {
+    line-height: 1.3em;
+}
+
+.body-wrapper:before {
+    min-height: 100vh;
+    width: 67%;
+}
+
+.body-wrapper:after {
+    min-height: 100vh;
+    width: 33%;
+}
+
+
+.slider-btn a:hover{
+    color: #fff!important;
+}
+.about-box-img a{
+     color: #707070!important;
+}
+/*search page----------------------------------------------------------------------------------*/
+
+.filter-search input,
+.filter-location select {
+    color: #707070;
+}
+
+.search-filters {
+    font-family: montserratlight;
+}
+
+.filters {
+    padding: 10px 20px;
+}
+
+.search-filters .result .title {
+    letter-spacing: 1px;
+}
+
+.search-btn .theme-grad-btn {
+    padding: 0px 40px;
+}
+
+.search-btn .theme-grad-btn span,
+.hover-zoom-btn span {
+    transition: all 0.4s;
+    display: block;
+}
+
+.search-btn .theme-grad-btn:hover span,
+.hover-zoom-btn:hover span {
+    transform: scale(0.85);
+}
+
+.search-res-box .content h6 {
+    font-family: 'Segoe UI Bold';
+    font-size: 1.1em;
+    margin-bottom: 12px;
+}
+
+.search-res-box {
+    background: transparent;
+    overflow: hidden;
+}
+
+.search-res-box .content {
+    background: #fff;
+}
+
+
+/*client page---------------------------------------------------------------------------------------------*/
+
+.client-list ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.client-list ul li img {
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+}
+.client-list ul li {
+		display: inline-block;
+		width: 10%;
+		margin-right: 2%;
+		margin-bottom: 20px;
+		margin-top: 20px;
+		width: 120px;
+		height: 120px;
+		background-color: #fff;
+		border-radius: 50%;
+		transition: all 0.4S;
+	}
+	.client-list ul li:hover{
+		 transform: scale(1.5)!important;
+	}
+	.client-list ul li img:hover{
+		    transform: scale(1)!important;
+	}
+/*product page--------------------------------------------------------------------------------------------*/
+
+.fancy-title h3 {
+    font-family: montserratsemibold;
+}
+
+.lr-trangular-list .info h6 {
+    font-size: 16px;
+    font-family: montserratregular;
+    letter-spacing: 0.5px;
+}
+
+.lr-trangular-list .info {
+    margin: 6px 0px;
+}
+
+.lr-trangular-list .info p {
+    font-size: 12px;
+    color: #bcc4c8;
+    font-family: montserratregular;
+}
+
+.mg-top-30 {
+    margin-top: 30px;
+}
+
+.charcol-panel .content .avail-color ul li {
+    box-shadow: 0px 0px 2px #000;
+}
+
+.charcol-panel .content .title {
+    margin-bottom: 2px;
+    line-height: 5px;
+    font-size: 14px;
+}
+
+.charcol-panel .content span {
+    font-size: 12px;
+    font-family: montserratlight;
+}
+
+.charcol-panel .content p {
+    margin-top: 15px;
+}
+
+.charcol-panel .content {
+    position: relative;
+    padding: 0px 30px 0px 0px;
+}
+
+.avail-color {
+    position: initial;
+}
+
+.avail-color img {
+    top: initial;
+    bottom: 6px;
+}
+
+.charcol-panel .content p {
+    font-size: 10px;
+}
+
+
+/*reach us page ---------------------------------------------------------------------------------------------*/
+
+.address-box .address .hq-name h6 {
+    font-family: 'montserratsemibold';
+    font-size: 1.1em;
+    margin-bottom: 12px;
+}
+
+.address-box .address .pro-name span {
+    font-family: montserratlight;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.address-box .address .location p {
+    font-size: 11px;   
+}
+
+.address-box .address .call span,
+.address-box .address .email span {
+    font-size: 12px;
+}
+
+.address-box .address .call span a,
+.address-box .address .email span a,
+.add-social-media ul li a {
+    color: #5b5b5b;
+}
+
+.add-social-media ul li a:hover {
+    color: #e5b97b;
+}
+
+.map-overlay {
+    position: absolute;
+    bottom: 0px;
+    opacity: 0;
+    width: 100%;
+    transition: all 0.4s;
+}
+
+.map-overlay img {
+    width: 100%;
+}
+
+.add-social-media ul li a i {
+    transition: all 0.4s;
+}
+
+.contact-us .address-box {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.contact-us .address-box .address {
+    transition: all 0.6s;
+    transform-origin: top left;
+}
+
+.contact-us .address-box:hover .address {
+    transform: scale(0.8);
+}
+
+.add-social-media ul {
+    transition: all 0.8s;
+}
+.contact-us .address-box .icon img{
+	width: 70px;
+}
+.contact-us .address-box:hover .add-social-media ul {
+    text-align: left;
+}
+
+.contact-us .address-box:hover .map-overlay {
+    opacity: 1;
+}
+
+.contact-us .contact-form {
+    border-radius: 0px 10px 10px 0px;
+    padding: 30px 40px;
+    margin-left: 18px;
+}
+
+.contact-us .contact-form .form-control {
+    border-radius: 7px;
+    font-size: 0.9rem;
+}
+
+/*process page*/
+ul.numbered-list{
+	padding: 20px 0px 20px 10px;
+}
+ul.numbered-list li:before{
+	font-family: 'montserratregular';
+}
+.wprocess-steps ul li .description{
+    color: #bcc4c8;
+}
+/*about us page*/
+.about-box-img{
+	overflow: hidden;
+}
+.about-box-img .about-box-overlay{
+	opacity: 0;
+	transform: translateY(20px);
+	height: 55%;
+}
+.about-box-img:hover .about-box-overlay{
+	opacity: 1;
+	transform: translateY(0px);
+}
+
+.wprocess-progessstep .steps ul li .icon img{	
+	filter: contrast(0.3);
+	margin: 0 auto;
+}
+.wprocess-progessstep{
+	overflow: hidden;
+}
+
+/*home*/
+.slider-btn a{
+	border-radius: 10px;
+}
+
+/*installation page*/
+.i-video-banner{
+	height: calc(100vh - 35vh);
+}
+.i-video-banner iframe{
+	width: 100%;
+	height: 100%;
+}
+.about-box-img .about-box-overlay{
+	text-align: left;
+}
+.about-box-overlay .content h5{
+	font-weight: 600;
+}
+.rel-video:hover{
+	    border: 1px solid #c8c8c8;
+}
+.rel-video{
+	cursor: pointer;
+	border: 1px solid transparent;
+}
